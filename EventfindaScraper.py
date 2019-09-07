@@ -32,7 +32,7 @@ class EventHandler( xml.sax.ContentHandler ):
             self.description = content.split(" ...")[0] + "..."
         elif self.CurrentData == "content":
             self.time = content[:-(len(content) - (len(content.split(', ')[len(content.split(', '))-1]) + (len(content.split(', ') * 2))))]
-            self.where = content.split(", ")[len(content.split(', '))-1]
+            self.where = content.split(", ")[len(content.split(', '))-1].replace("<br/>", " ")
 
 
 
