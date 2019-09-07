@@ -3,32 +3,26 @@ import xml.sax
 import os
 import httplib2
 
-
+rows = [["Title", "Description", "Where", "Time", "Icon"]]
 
 class EventHandler( xml.sax.ContentHandler ):
     def __init__(self):
         self.CurrentData = ""
         self.title = ""
         self.description = ""
-        self.where_when = ""
+        self.where = ""
+        self.time = ""
         self.icon_url = ""
 
     def startElement(self, tag, attributes):
         self.CurrentData = tag
-        if tag == "item":
-            print("===== item =====")
-        elif tag == "enclosure":
+        if tag == "enclosure":
             url = attributes['url']
-            print("Icon:", url)
-            self.icon_url
+            self.icon_url = url
 
     def endElement(self, tag):
-        if self.CurrentData == "title":
-            print("Title:", self.title)
-        elif self.CurrentData == "description":
-            print("Description:", self.description)
-        elif self.CurrentData == "content":
-            print("Where and When:", self.where_when)
+        if tag == "item":
+            rows.append([self.title, self.description, self.where, self.time, self.icon_url])
         self.CurrentData = ""
 
     def characters(self, content):
@@ -37,16 +31,19 @@ class EventHandler( xml.sax.ContentHandler ):
         elif self.CurrentData == "description":
             self.description = content.split(" ...")[0] + "..."
         elif self.CurrentData == "content":
-            self.where_when = content
-
+            self.time = content[:-(len(content) - (len(content.split(', ')[len(content.split(', '))-1]) + (len(content.split(', ') * 2))))]
+            self.where = content.split(", ")[len(content.split(', '))-1]
 
 
 
 if ( __name__ == "__main__"):
     content = open('eventfinda.xml', 'r')
-    #rss_str = u'' + content.read().decode('ascii', 'ignore')
     parser = xml.sax.make_parser()
     parser.setFeature(xml.sax.handler.feature_namespaces, 0)
     parser.setContentHandler(EventHandler())
     parser.parse(content)
 
+    with open("export/eventfinda.csv", "wb") as eventCsv:
+        writer = csv.writer(eventCsv)
+        writer.writerows(rows)
+        eventCsv.close()
