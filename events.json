@@ -1,0 +1,85 @@
+{
+    "events": [
+        {
+            "title": "Central Hawke's Bay Artisan Festival",
+            "description": "For over 20 years 'CHB The Festival' has been a standout event in Central Hawke's Bay, with proud Artisans coming together to showcase their amazing talents over four days. This year, we see a change of name and a...",
+            "date": "2019-09-08",
+            "start_time": "10:00:00",
+            "end_time": "16:00:00",
+            "location": "Pukeora Estate, Waipukurau",
+            "icon": "http://cdn.eventfinda.co.nz/uploads/events/transformed/1326600-588620-13.png"
+        },
+        {
+            "title": "Tutored Tastings with Whisky Galore",
+            "description": "Sit down and let the experts from Whisky Galore take you through an in depth tutored whisky tasting with some of their favourite Whisky's.Pukeora Estate - Ruahine Room. Part of the Central Hawke's Bay Artisan...",
+            "date": "2019-09-07",
+            "start_time": "11:00:00",
+            "end_time": "12:45:00",
+            "location": "Pukeora Estate, Waipukurau",
+            "icon": "http://cdn.eventfinda.co.nz/uploads/events/transformed/1327959-588736-13.jpg"
+        },
+        {
+            "title": "Spring Market",
+            "description": "We have a great indoor market to welcome spring to Hawke's Bay. With around 30 stalls offering all manner of lovely, high quality products from original art to Honey and Chilli products. Something for everyone. Treat...",
+            "date": "2019-09-07",
+            "start_time": "10:00:00",
+            "end_time": "14:00:00",
+            "location": "Meeanee Hall, Napier",
+            "icon": "http://cdn.eventfinda.co.nz/uploads/events/transformed/1328532-589500-13.png"
+        },
+        {
+            "title": "Avant Garde'n Wearable Creations Fashion Show",
+            "description": "Join us for The Avant Garde 'n Wearable Creations Fashion Show. A stunning showcase of Central Hawke's Bay talent and creativity at the Central Hawke's Bay Artisan Festival. Inspired by Spring and our Central...",
+            "date": "2019-09-07",
+            "start_time": "15:00:00",
+            "end_time": "17:00:00",
+            "location": "Pukeora Estate, Waipukurau",
+            "icon": "http://cdn.eventfinda.co.nz/uploads/events/transformed/1326630-588646-13.jpg"
+        },
+        {
+            "title": "GUNT, Godzilla Takes New York, Pale Flag & Calvary",
+            "description": "It's time for another solid metal show in Napier hosted by your dirty local metal band Gunt!Godzilla Takes New York formed at the end of 2016 by a group of pop-culture loving pop-punk musicians looking to reconnect...",
+            "date": "2019-09-07",
+            "start_time": "20:00:00",
+            "end_time": "23:55:00",
+            "location": "The Cabana, Napier",
+            "icon": "http://cdn.eventfinda.co.nz/uploads/events/transformed/1329690-590075-13.jpg"
+        },
+        {
+            "title": "Saturday Night Session with Fuego Latino",
+            "description": "Our favourite Gypsy-Folk Band is back for another night of rhythms and melodies to persuade you to move. With a diverse range of instruments, song choices, languages, and food and drink options, this is a night for...",
+            "date": "2019-09-07",
+            "start_time": "19:30:00",
+            "end_time": "21:30:00",
+            "location": "The Urban Winery, Napier",
+            "icon": "http://cdn.eventfinda.co.nz/uploads/events/transformed/1337149-592933-13.png"
+        },
+        {
+            "title": "NZIFF - New Zealand's Best 2019",
+            "description": "Check out the year's best New Zealand short films as chosen by this year's guest selector Jane Campion, from a shortlist drawn up by NZIFF programmers from a total of 91 entries. - Nancy From Now On- Krystal-...",
+            "date": "2019-09-07",
+            "start_time": "13:00:00",
+            "end_time": "14:35:00",
+            "location": "MTG Century Theatre, Napier",
+            "icon": "http://cdn.eventfinda.co.nz/uploads/events/transformed/1333004-591418-13.jpg"
+        },
+        {
+            "title": "NZIFF - Kind Hearts and Coronets",
+            "description": "Celebrating its 70th birthday in a pristine digital restoration, director Robert Hamer's Kind Hearts and Coronets upholds its position as one of the funniest, most perfectly pitched black comedies ever made. Dennis...",
+            "date": "2019-09-07",
+            "start_time": "15:30:00",
+            "end_time": "17:15:00",
+            "location": "MTG Century Theatre, Napier",
+            "icon": "http://cdn.eventfinda.co.nz/uploads/events/transformed/1333009-591422-13.jpg"
+        },
+        {
+            "title": "NZIFF - Portrait of a Lady on Fire",
+            "description": "Winner of Best Screenplay and the Queer Palm at Cannes, Celine Sciamma's striking 18th-century tale of romantic obsession burns bright with female desire and the craft of a masterful filmmaker. Between Water...",
+            "date": "2019-09-07",
+            "start_time": "18:00:00",
+            "end_time": "20:00:00",
+            "location": "MTG Century Theatre, Napier",
+            "icon": "http://cdn.eventfinda.co.nz/uploads/events/transformed/1333023-591425-13.jpg"
+        }
+    ]
+}
